@@ -12,6 +12,7 @@
 		E402324E1E42351900DD6B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E402324D1E42351900DD6B5E /* Assets.xcassets */; };
 		E40232511E42351900DD6B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E402324F1E42351900DD6B5E /* Main.storyboard */; };
 		E402325C1E42351900DD6B5E /* InterestCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E402325B1E42351900DD6B5E /* InterestCalculatorTests.swift */; };
+		E40232671E42394B00DD6B5E /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40232661E42394B00DD6B5E /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		E40232571E42351900DD6B5E /* InterestCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterestCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E402325B1E42351900DD6B5E /* InterestCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCalculatorTests.swift; sourceTree = "<group>"; };
 		E402325D1E42351900DD6B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40232661E42394B00DD6B5E /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				E402324B1E42351900DD6B5E /* ViewController.swift */,
 				E402324D1E42351900DD6B5E /* Assets.xcassets */,
 				E402324F1E42351900DD6B5E /* Main.storyboard */,
+				E40232661E42394B00DD6B5E /* Calculator.swift */,
 				E40232521E42351900DD6B5E /* Info.plist */,
 			);
 			path = InterestCalculator;
@@ -199,6 +202,7 @@
 			files = (
 				E402324C1E42351900DD6B5E /* ViewController.swift in Sources */,
 				E402324A1E42351900DD6B5E /* AppDelegate.swift in Sources */,
+				E40232671E42394B00DD6B5E /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
