@@ -25,10 +25,11 @@ struct Calculator {
     }
     
     /**
-     * Returns the total payable, interest + original borrow amount
+     Returns the total payable, interest + original borrow amount
      */
     var totalPayable: Double {
-        // If the loan length is not set, there is no loan, so the amount payable is the amount borrowed
+        // If the loan length is not set, there is no loan, 
+        // so the amount payable is the amount borrowed
         if loanLengthYears > 0 {
             // Using compund interest formula
             return borrowed * pow(1.0 + interestRateDecimal, loanLengthYears)
@@ -56,3 +57,4 @@ struct Calculator {
         return totalPayableAnnually / 12
     }
 }
+

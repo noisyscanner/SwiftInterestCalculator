@@ -208,11 +208,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="amountToBorrowTextField" destination="M2w-rV-uYn" id="uAA-Va-BdI"/>
+                        <outlet property="interestRateTextField" destination="bDK-h7-2M7" id="Y4r-dL-csZ"/>
                         <outlet property="lblMonthlyInterest" destination="WDr-H7-OXA" id="Pr9-8Z-Azi"/>
                         <outlet property="lblTotalInterest" destination="iT4-Dh-3Hc" id="Vqn-M1-KyA"/>
-                        <outlet property="txtAmountToBorrow" destination="M2w-rV-uYn" id="OYz-o3-yk6"/>
-                        <outlet property="txtIntetestRate" destination="bDK-h7-2M7" id="1cW-Lh-h7T"/>
-                        <outlet property="txtLoanLength" destination="wHl-eN-bf7" id="NBK-rv-VZq"/>
+                        <outlet property="loanLengthTextField" destination="wHl-eN-bf7" id="eRd-6v-SNS"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
